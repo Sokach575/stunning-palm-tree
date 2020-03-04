@@ -1,0 +1,18 @@
+<!--pages/answer/answer.wxml-->
+<view class="container">
+<form bindsubmit="formBindsubmit">
+  <view class="top">
+    <view class="label"> 题目标签</view>
+    <view class="level"> 难易程度显示</view>
+  </view>
+  <view class="topic">
+    <view>题目描述题目描述题目描述题目描述题目描述题目描述题目描述</view>
+  </view>
+  <view class="answer">
+      <view class="answer-item {{view1}}" >答案1</view>
+      <view class="answer-item {{view2}}">答案2</view>
+      <view class="answer-item {{view3}}">答案3</view>
+      <view class="answer-item {{view4}}">答案4</view>
+  </view>
+</form>
+</view>

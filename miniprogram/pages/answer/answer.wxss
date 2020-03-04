@@ -1,0 +1,16 @@
+/* pages/answer/answer.wxss */
+.container{
+  position:fixed;
+  width:100%;height:100%;background: rgba(251, 46, 80, 0.1);
+}
+.top{
+  width:100%;
+  height:17%;
+  text-align: center;
+  background:rgba(251, 46, 46, 0.5) ;
+}
+.label{width:100%;height:36px;line-height: 36px;font-size: 24px;color:#fff}
+.topic{width:100%;height:20%;text-align: center;background: rgba(251, 46, 80, 0.3);padding-bottom: 1%;}
+.topic view{margin-top:8%;}
+.answer{width:100%;height:65%;background: #fff;text-align: center;}
+.answer-item{width:50%;height:10%;border:1px solid #000;border-radius: 10px;padding-top:10px;margin:40rpx auto;}
